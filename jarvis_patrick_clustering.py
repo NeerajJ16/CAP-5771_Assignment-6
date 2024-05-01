@@ -267,6 +267,7 @@ def jarvis_patrick_clustering():
     plt.ylabel(f'Feature 2 for Dataset{i+1}')
     # plt.colorbar()
     plt.grid(True)
+    plt.savefig("LargestARI_JP.png")
     # plt.show()
 
 
@@ -280,6 +281,7 @@ def jarvis_patrick_clustering():
     plt.xlabel(f'Feature 1 for Dataset{i+1}')
     plt.ylabel(f'Feature 2 for Dataset{i+1}')
     plt.grid(True)
+    plt.savefig("SmallestSSE_JP.png")
     plt.close()
     # plt.colorbar()
     # plt.show()
